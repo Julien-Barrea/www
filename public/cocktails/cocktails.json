@@ -1,0 +1,86 @@
+[
+    {
+        "name": "americano",
+        "ingredients": [
+            "30 ml Bitter Campari",
+            "30 ml Sweet Red Vermouth",
+            "A splash of Soda Water"
+        ],
+        "method": "Mix the ingredients directly in an old fashioned glass filled with ice cubes.\nAdd a splash of Soda Water. Stir gently.",
+        "garnish": "Garnish with half orange slice and a lemon zest."
+    },
+    {
+        "name": "negroni",
+        "ingredients": [
+            "30 ml Gin",
+            "30 ml Bitter Campari",
+            "30 ml Sweet Red Vermouth"
+        ],
+        "method": "Pour all ingredients directly into chilled old fashioned glass filled with ice.\nStir gently.",
+        "garnish": "Garnish with half orange slice."
+    },
+    {
+        "name": "cuba libre",
+        "ingredients": [
+            "50 ml White Rum",
+            "120 ml Cola",
+            "10 ml Fresh Lime Juice"
+        ],
+        "method": "Build all ingredients in a highball glass filled with ice.",
+        "garnish": "Garnish with lime wedge."
+    },
+    {
+        "name": "mojito",
+        "ingredients": [
+            "45 ml White Cuban Ron",
+            "20 ml  Fresh Lime Juice",
+            "6 pcs Mint Sprigs",
+            "2 tsp White Cane Sugar",
+            "Soda Water"
+        ],
+        "method": "Mix mint springs with sugar and lime juice.\n\nAdd splash of soda water and fill the glass with ice.\n\nPour the rum and top with soda water. Light stir to involve all ingredients.",
+        "garnish": "Garnish with sprigs of mint and slice of lime."
+    },
+    {
+        "name": "pina colada",
+        "ingredients": [
+            "50 ml White Rum",
+            "30 ml Coconut Cream",
+            "50 ml Fresh Pineapple Juice"
+        ],
+        "method": "Blend all the ingredients with ice in a electric blender,\npour into a large glass and serve with straws.\n\nNote:\nHistorically a few drops of fresh lime juice was added to taste. 4 slices of fresh pineapple can be used instead of juice",
+        "garnish": "Garnish with a slice of pineapple with a cocktail cherry."
+    },
+    {
+        "name": "porn star martini",
+        "ingredients": [
+            "50 ml Vanilla Vodka",
+            "20 ml Passion Fruit Liqueur",
+            "50 ml Passion Fruit Puree",
+            "2 Bar Spoons Vanilla Sugar",
+            "50 ml Champagne to serve on the side"
+        ],
+        "method": "Pour all ingredients into cocktail shaker, shake well with ice, double strain into a large chilled cocktail glass.\n\nAccompany with a shot of champagne.",
+        "garnish": "Garnish with passion fruit cup and sugar."
+    },
+    {
+        "name": "tequila sunrise",
+        "ingredients": [
+            "45 ml Tequila",
+            "90 ml Fresh Orange Juice",
+            "15 ml Grenadine Syrup"
+        ],
+        "method": "Pour tequila and orange juice directly into highball glass filled with ice cubes.\nAdd the grenadine syrup to create chromatic effect (sunrise), do not stir.",
+        "garnish": "Garnish with half orange slice or an orange zest."
+    },
+    {
+        "name": "spritz",
+        "ingredients": [
+            "90 ml Prosecco",
+            "60 ml Aperol",
+            "Splash of Soda water"
+        ],
+        "method": "Build all ingredients into a wine glass filled with ice.\nStir gently.\n\nNOTE:\nThere are other versions of the Spritz that use Campari, Cynar or Select instead of Aperol.",
+        "garnish": "Garnish with a slice of orange."
+    }
+]
