@@ -1,13 +1,6 @@
 import { promises as fs } from 'fs';
-import Image from "next/image";
-
-interface Cocktail {
-    name: string;
-    image: string;
-    ingredients: string[];
-    method: string;
-    garnish: string;
-}
+import { Cocktail } from '@/types/Cocktail';
+import { Drink } from './card';
 
 export const metadata = {
   title: 'Menu - Cocktails',
@@ -42,24 +35,9 @@ export default async function menu() {
             <div className='py-5 px-3'>
                 <h2 className='text-3xl mb-3'>Cocktails</h2>
                 <div className='grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
-                    {data.map((cocktail : Cocktail) => (
-                        <div key={cocktail.name} className="card bg-base-100 shadow-xl m-4">
-                            <figure>
-                                <Image src={`/cocktails/${cocktail.name.replaceAll(' ','_')}.webp`} alt={cocktail.name} width={452} height={660}/>
-                            </figure>
-                            <div className="card-body">
-                                <h2 className="card-title">{cocktail.name}</h2>
-                                <ul>
-                                    {cocktail.ingredients.map((ingredient, index) => (
-                                        <li key={index}>{ingredient}</li>
-                                    ))}
-                                </ul>
-                                <div className="card-actions justify-end mt-auto pt-4">
-                                    <button className="btn btn-secondary">Order</button>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                    {data.map((cocktail : Cocktail) =>
+                        <Drink cocktail={cocktail} key={cocktail.name}/>
+                    )}
                 </div>
             </div>
 
@@ -86,4 +64,3 @@ export default async function menu() {
         </div>
     )
 }
-
