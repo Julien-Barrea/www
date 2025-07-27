@@ -9,15 +9,15 @@ interface Cocktail {
     garnish: string;
 }
 
+export const metadata = {
+  title: 'Menu - Cocktails',
+};
+
 export default async function menu() {
     const file = await fs.readFile(process.cwd() + '/public/cocktails/cocktails.json', 'utf8');
     const data = JSON.parse(file);
 
     return (
-        <>
-        <head>
-            <title>J Cloud</title>
-        </head>
         <div>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="flex-1">
@@ -84,7 +84,6 @@ export default async function menu() {
             </div>
 
         </div>
-        </>
     )
 }
 
