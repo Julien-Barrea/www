@@ -14,6 +14,10 @@ export default async function menu() {
     const data = JSON.parse(file);
 
     return (
+        <>
+        <head>
+            <title>J Cloud</title>
+        </head>
         <div>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="flex-1">
@@ -80,6 +84,7 @@ export default async function menu() {
             </div>
 
         </div>
+        </>
     )
 }
 
