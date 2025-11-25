@@ -32,13 +32,15 @@
     {
         "name": "mojito",
         "ingredients": [
-            "45 ml White Cuban Ron",
-            "20 ml  Fresh Lime Juice",
+            "40 ml Brown Rum",
+            "20 ml White Cuban Ron",
+            "1 Fresh Lime",
             "6 pcs Mint Sprigs",
-            "2 tsp White Cane Sugar",
+            "1 tsp White Cane Sugar",
+            "20 ml Sugar",
             "Soda Water"
         ],
-        "method": "Mix mint springs with sugar and lime juice.\n\nAdd splash of soda water and fill the glass with ice.\n\nPour the rum and top with soda water. Light stir to involve all ingredients.",
+        "method": "Cut lime in 8-12 pieces after removing the edges and the white parts. Then mix the pieces with sugar and mint.\n\nAdd splash of soda water and fill the glass with ice.\n\nPour the rum and top with soda water. Light stir to involve all ingredients.",
         "garnish": "Garnish with sprigs of mint and slice of lime."
     },
     {
@@ -74,13 +76,82 @@
         "garnish": "Garnish with half orange slice or an orange zest."
     },
     {
-        "name": "spritz",
+        "name": "aperol spritz",
         "ingredients": [
             "90 ml Prosecco",
             "60 ml Aperol",
-            "Splash of Soda water"
+            "30 ml of Soda water"
         ],
         "method": "Build all ingredients into a wine glass filled with ice.\nStir gently.\n\nNOTE:\nThere are other versions of the Spritz that use Campari, Cynar or Select instead of Aperol.",
         "garnish": "Garnish with a slice of orange."
+    },
+    {
+        "name": "campari spritz",
+        "ingredients": [
+            "90 ml Prosecco",
+            "60 ml Campari",
+            "30 ml Soda water"
+        ],
+        "method": "Build all ingredients into a wine glass filled with ice.\nStir gently.\n\nNOTE:\nThere are other versions of the Spritz that use Campari, Cynar or Select instead of Aperol.",
+        "garnish": "Garnish with a slice of orange."
+    },
+    {
+        "name": "hugo",
+        "ingredients": [
+            "90 ml Prosecco",
+            "20 ml St-Germain",
+            "20 ml Elderflower Syrup",
+            "60 ml Soda Water",
+            "6–8 Fresh Mint Leaves",
+            "1 Lime Wheel"
+        ],
+        "method": "Lightly clap the mint leaves between your hands and place in a large wine glass filled with ice. Add St-Germain, pour in elderflower syrup and Prosecco, and top with soda water.\nStir very gently.\n\nNote:\nReduce St-Germain if you prefer a drier drink, or add a squeeze of lime for more acidity.",
+        "garnish": "Garnish with a sprig of mint and a lime wheel."
+    },
+    {
+        "name": "vanilla sunset spritz",
+        "ingredients": [
+            "30 ml Vanilla Vodka",
+            "20 ml Aperol",
+            "40 ml Passion Fruit Juice or Passoa",
+            "60 ml Soda Water"
+        ],
+        "method": "Fill a tall glass with ice. Add vanilla vodka, Aperol, and passion fruit juice (or Passoa). Stir gently, then top with soda water.\n\nNote:\nIf using Passoa instead of juice, add a splash of lime juice if available.",
+        "garnish": "Garnish with an orange slice or a piece of passion fruit."
+    },
+    {
+        "name": "green monkey negroni",
+        "ingredients": [
+            "25 ml Gin",
+            "25 ml Red Vermouth",
+            "20 ml Campari",
+            "10 ml Pisang"
+        ],
+        "method": "Combine all ingredients in a mixing glass with ice. Stir until well chilled and strain into a rocks glass over a large ice cube.\n\nNote:\nThe Pisang softens the bitterness and adds a subtle banana tropical note.",
+        "garnish": "Garnish with an orange peel."
+    },
+    {
+        "name": "coco tequila sunrise twist",
+        "ingredients": [
+            "40 ml Tequila",
+            "40 ml Pineapple Juice",
+            "30 ml Orange Juice",
+            "20 ml Coconut Purée",
+            "30 ml Soda Water"
+        ],
+        "method": "Shake tequila, pineapple juice, orange juice, and coconut purée with ice until smooth. Strain into a tall glass filled with ice, then top with a splash of soda water.\n\nNote:\nIf the drink becomes too creamy, add a bit more soda. Adding a squeeze of lime (if you have it) will brighten the cocktail significantly.",
+        "garnish": "Garnish with a pineapple wedge or an orange slice."
+    },
+    {
+        "name": "elderflower ruby sunset",
+        "ingredients": [
+            "40 ml Tequila",
+            "15 ml Campari (for color and bitterness)",
+            "15 ml Elderflower Syrup",
+            "15 ml Fresh Lime Juice",
+            "60 ml Prosecco"
+        ],
+        "method": "Combine Tequila, Campari, Elderflower Syrup, and Lime Juice in a shaker with ice. Shake until well chilled. Double strain into a chilled wine glass or coupe. Top with Prosecco.\n\nNote:\nThe Campari provides a brilliant ruby color and balancing bitterness to the floral sweetness of the elderflower.",
+        "garnish": "Garnish with a thin lime wheel and a few edible flower petals."
     }
 ]
